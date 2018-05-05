@@ -15,9 +15,9 @@ def prime?(num)
       index+=1
     end
     if test_count == test_array.size
-      "#{num} is a prime number"
+      true
     else 
-      "#{num} is NOT a prime number"
+      false
     end
   else 
   return "Enter a whole number, an integer."
