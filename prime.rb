@@ -3,7 +3,7 @@ def prime?(num)
   when num<=0
     return false
   when num == 1
-    return true
+    return false
   when num == 2
     return true
   when num == 3
