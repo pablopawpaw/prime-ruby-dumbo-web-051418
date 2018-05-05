@@ -5,7 +5,7 @@ def prime?(num)
   index = 0
   test_count = 0
   
-  if num.class == Fixnum
+  if num.class == Fixnum && num > 0
     while index < test_array.size do
       if (num % test_array[index]) === 0
       else
