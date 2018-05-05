@@ -1,5 +1,5 @@
 def prime?(num)
-  if num < 0 
+  if num <= 0 
     return false
   end 
   test_num = Math.sqrt(num).floor
