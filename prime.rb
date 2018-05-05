@@ -20,6 +20,6 @@ def prime?(num)
       false
     end
   else 
-  return "Enter a whole number, an integer."
+  return false
 end
 end
