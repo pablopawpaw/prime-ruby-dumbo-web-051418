@@ -1,4 +1,25 @@
 def prime?(num)
-  num_array = (1..num).to_a
+  test_num = Math.sqrt(num).floor
+  test_array = (1..test_num).to_a
+  test_array.shift
+  index = 0
+  test_count = 0
   
+  if num.class == Fixnum
+    while index < test_array.size do
+      if (num % test_array[index]) === 0
+        "Not a prime number"
+      else
+        test_count+=1
+      end
+      index+=1
+    end
+    if test_count == test_array.size
+      "#{num} is a prime number"
+    else 
+      "#{num} is NOT a prime number"
+    end
+  else 
+  return "Enter a whole number, an integer."
+end
 end
