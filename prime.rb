@@ -4,7 +4,6 @@ def prime?(num)
   end 
   test_num = Math.sqrt(num).floor
   test_array = (1..test_num).to_a
-  test_array.shift
   index = 0
   test_count = 0
   
