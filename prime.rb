@@ -8,7 +8,6 @@ def prime?(num)
   if num.class == Fixnum
     while index < test_array.size do
       if (num % test_array[index]) === 0
-        "Not a prime number"
       else
         test_count+=1
       end
